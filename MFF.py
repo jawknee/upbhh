@@ -6,6 +6,9 @@
 		Header chunks - simple, 3 16-bit values
 		Track chunks - one or more, variable length, 
 		    various MIDI events
+		    
+	Essentially a repository for the data of the chunk, and an inherited set of
+	routines (append, post, dump) for loading and outputting the data (Chunk class)
 """
 
 class Chunk():
