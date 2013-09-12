@@ -91,7 +91,7 @@ class Track_Chunk(Chunk):
 
 def vlq(value, mask=0x00):
 	"""  
-	Feturns a binary string of 1 - 4 bytes
+	Returns a binary string of 1 - 4 bytes
 	in standard variable length quantity.
 	Bytes have a 7 digit value, high-order bit 
 	indicates more data to come. Final byte

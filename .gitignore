@@ -1,0 +1,7 @@
+*.pyc
+Content/
+.project
+.pydevproject
+.DS_Store
+log
+testout.mid
