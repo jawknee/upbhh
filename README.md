@@ -2,3 +2,10 @@ upbhh
 =====
 
 Code for Unplayed By Human Hands to MIDI File Format
+
+An early python "learning" project for me.  This takes
+the historical PDP-8 file format from the Unplayed 
+by Human Hands project, and converts the music data
+to MIDI File Format.
+
+No .uph content at this time.
