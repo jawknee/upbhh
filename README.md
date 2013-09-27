@@ -8,4 +8,6 @@ the historical PDP-8 file format from the Unplayed
 by Human Hands project, and converts the music data
 to MIDI File Format.
 
+The main module is the upbhh.py script, the rest are supporting modules.
+
 No .uph content at this time.
