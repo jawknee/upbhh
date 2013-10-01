@@ -91,6 +91,7 @@ class Track_Chunk(Chunk):
 
 def vlq(value, mask=0x00):
 	"""  
+	Variable Length Quantity
 	Returns a binary string of 1 - 4 bytes
 	in standard variable length quantity.
 	Bytes have a 7 digit value, high-order bit 
@@ -119,7 +120,8 @@ def int2chars(val, count):
 	"""
 	Turn a value into a binary byte stream of length count
 	"""
-	mask = 256 ** count - 1
+	shift = count * 3 	# how many bits to shift for mask
+	mask = ( 8 << shift ) -1 
 	mval = val & mask
 	if mval != val:
 		print "Error: value too big for", count, "byte field", val, "Masked to:", mval

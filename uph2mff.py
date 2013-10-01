@@ -87,8 +87,8 @@ def main():
 	#song.list()	# debug...
 
 	# for testing.  Later:  use option passed file
-	outfile = open('testout.mid','wb')
-
+	#outfile = open('testout.mid','wb')
+	outfile = open(out_name, 'wb')
 	song.create_MFF(outfile,txt_name)	# create a MIDI file, and optionally, a text summary
 
 	outfile.close()
