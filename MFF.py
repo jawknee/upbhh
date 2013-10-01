@@ -120,8 +120,8 @@ def int2chars(val, count):
 	"""
 	Turn a value into a binary byte stream of length count
 	"""
-	shift = count * 3 	# how many bits to shift for mask
-	mask = ( 8 << shift ) -1 
+	shift = count * 8 	# how many bits to shift for mask
+	mask = ( 1 << shift ) -1 
 	mval = val & mask
 	if mval != val:
 		print "Error: value too big for", count, "byte field", val, "Masked to:", mval
