@@ -32,6 +32,8 @@ def getoptions():
 		-f, --file 	input file
 		-o, --output	output file (optional, else input file: .uph -> .mid)
 		-t, --text text output, Division, Rank, and Orchestration data
+		-p, --ppq pulses per quarter note - default 192
+		-c, --correction   time correction factor
 	"""
 	parser = OptionParser()
 	default="None"

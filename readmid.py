@@ -63,7 +63,7 @@ def main():
 			event_type = event[j]
 			if event_type == 0xff:
 				print "Meta-event:"
-				etype == event[J+1]
+				etype == event[j+1]
 				[ elen, off ] = vlq(event[2:])
 				j += off
 				print "elen = ", elen
