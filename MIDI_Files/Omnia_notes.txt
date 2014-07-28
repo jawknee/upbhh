@@ -1,0 +1,9 @@
+The midi conversion of the omnia (minus the 
+extra intro) is:
+
+5:01.383  =  301.383
+
+Length of the corresponding section of the recording:
+5:39.606 =  339.606
+
+factor:  1.1268
